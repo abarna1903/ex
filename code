@@ -24,6 +24,7 @@ if(dis>=100)
 digitalWrite(8,HIGH);
 digitalWrite(7,HIGH);
 }
+
 //Buzzer For ultrasonic Sensor
 if(dis>=100)
 {
@@ -50,6 +51,7 @@ if(t>=100)
 digitalWrite(8,HIGH);
 digitalWrite(7,HIGH);
 }
+
 //Buzzer for Temperature Sensor
 if(t>=100)
 {
@@ -61,6 +63,7 @@ noTone(12);
 delay(1000);
 }
 }
+
 //LED OFF
 if(t<100)
 {
